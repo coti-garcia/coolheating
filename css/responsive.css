@@ -1,0 +1,118 @@
+/*  Celeste: #8DB7C9  */
+/*  Azul: #006097  */
+/*  Amarillo: #FFA300 */
+@media screen and (max-width: 1200px) {
+    .principal-text {
+        top: 240px;
+        left: 100px;
+    }
+}
+@media screen and (max-width: 991px) {
+    .header.standart_nav nav {
+        z-index: 400;
+        background-color: #006097; 
+    }
+    .header.standart_nav nav>ul li ul{
+        background-color: #0076AD;
+    }
+    
+    .header.standart_nav nav>ul li{
+        padding-left: 0;
+        border-top: solid thin #0076AD;
+    }
+    
+    .header.standart_nav nav>ul li ul li{
+        padding-left: 15px;
+    }
+    
+    .description .item {
+        height: 325px;
+    }
+    
+    .description.benefits .item {
+        height: auto;
+    }
+
+    .principal-text {
+        top: 216px;
+        left: 60px;
+        width: 60%;
+    }
+    
+    .btn-lg {
+        padding: 13px 16px;
+        font-size: 13px;
+    }
+    .about-description p {
+        padding: 0px 20px;
+    }
+    footer.footer .fbottom .logo img {
+        margin: 30px auto;
+    }
+    
+    .description.benefits.greenhouse .item {
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    
+}
+
+@media screen and (max-width: 767px) {
+    .description .item {
+        height:auto;
+    }
+    
+    .principal-text {
+        top: 195px;
+        left: 30px;
+        width: 90%;
+    }
+    
+    .principal-text h1 {
+        border-left: solid 6px #006097;
+        padding: 10px 15px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 23px;
+    }
+    
+    .description h2 {
+        font-size: 28px;
+    }
+    
+    footer.footer .ftop .footer-menu li {
+        display: inline-block;
+        line-height: 29px;
+    }
+    .main section.header-page h1{
+        font-size: 25px;
+    }
+    .acs-table thead tr img{
+        display: none;
+    }
+    
+    .plusvalia p {
+        padding: 25px 20px;
+        color: #FFF;
+        font-size: 16px;
+        text-align: center;
+        line-height: 24px;
+    }
+    .plusvalia {
+        background-size: cover;
+    }
+    
+    .logo-ce{
+        text-align: center;
+    }
+    
+    .services-detail.hibrida .esquema p {
+        padding: 20px 30px;
+    }
+    
+    .fancoils .icon:last-child, .hibrida .icon:last-child{
+        margin-top: 50px;
+    }
+} 
